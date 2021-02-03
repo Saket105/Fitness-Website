@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <?php include("function.php");?>
+    <html>
+    <head>
+        <title>Members</title>
+        <link rel="stylesheet" href="./box.css">
+    </head>
+    <body>
+        <div class="">
+        
+                <div class="title"><h1>Members Details</h1></div>
+                <div class="">
+                                <div class="">
+                                    <table class="">
+                                                    <thead>
+                                                        <tr>
+                                                        <th>Name</th>
+                                                        <th>Age</th>
+                                                        <th>Address</th>
+                                                        <th>Phone no</th>
+                                                        </tr>   
+                                                    </thead>
+                                            <tbody>
+                                            <?php get_member_details(); ?>
+                                            </tbody>
+                                    </table>
+                                </div>
+               </div>
+               </div>       
+    
+        </div>
+    </body>
+</html>

@@ -297,3 +297,294 @@ hr{
 }
 
 /* services */
+
+
+/* Registration */
+
+#registration{
+    width: 100%;
+    padding: 70px 0;
+    background: linear-gradient(#42cdfc, rgb(146, 146, 146));
+}
+
+.registration-box{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.registration-box p{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+#form-box{
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    height: 30px;
+    outline: 0;
+}
+
+/* Registration */
+
+
+
+/* Price Plan */
+
+#price{
+    width: 100%;
+    padding: 70px 0;
+    background: #fffbfb;
+}
+.row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.col-md{
+    flex-basis: 40%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 20px #333;
+}
+
+.single-price{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    position: relative;
+    transition: 00.5s; 
+}
+.price-head{
+    background-color: #2196f3;
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 98%;
+}
+.price-head h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.price-head h4{
+    font-size: 25px;
+    color: #ccc;
+    font-weight: bold;
+    line-height: 30px;
+}
+#price span{
+    font-size: 20px;
+}
+.price-content{
+display: inline;
+float: left;
+width: 90%;
+padding: 0 15px;
+}
+
+.price-content ul li{
+    border-bottom: 1px solid #efefef;
+    padding: 15px 10px;
+    list-style: none;
+}
+ul li:last-child{
+    border: none;
+}
+.fa-check-circle{
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.fa-times-circle{
+    color: red;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.price-button{
+    display: inline;
+    float: left;
+    padding: 15px 15px 30px;
+    text-align: center;
+    width: 100%;
+}
+.buy-btn{
+    background-color: #2196f3;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 50px;
+    transition: 0.5s;
+}
+.buy-btn:hover{
+    border-color: 1px solid #fff;
+    background-color: #3f51b5;
+}
+a{
+    text-decoration: none !important;
+    color: #fff;
+}
+
+/* Price Plan */
+
+/* Footer */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+/* Footer */
+
+
+/* Testimonial */
+
+#testimonial{
+    width: 100%;
+    padding: 70px 0;
+}
+.testimonial-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.testimonial-col{
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #00968814;
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+.testimonial-col p{
+    font-size: 14px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.user img{
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+.user-info .fa{
+    margin-left: 10px;
+    color: #27c0ff;
+    font-size: 20px;
+}
+.user-info small{
+    color: #009688;
+}
+.testimonial-col:hover{
+    transform: translateY(-7px);
+}
+@media screen and (max-width:770px){
+.testimonial-col{
+    flex-basis: 100%;
+}
+}
+/* Testimonial */
